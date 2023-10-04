@@ -10,7 +10,7 @@ const config = {
 function resumeParser(text) {
   try {
     const name = extractName(text);
-    const sections = extractSections(text);
+    const sections = parseSections(text);
     const resumeData = {
       'contact-info': {
         name,
@@ -24,7 +24,7 @@ function resumeParser(text) {
   }
 }
 
-function extractSections(text) {
+function parseSections(text) {
   const lines = text.split('\n');
   let lastSectionName = '';
   let currentSectionContent = '';
