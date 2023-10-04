@@ -1,53 +1,11 @@
 const fs = require('fs');
 const pdf = require('pdf-parse');
+const sectionKeywords = require('../sectionKeywords.json'); // Adjust the path as needed
 
 // Configuration
 const config = {
   keywords: {
     dateWords: ['present', 'ongoing', 'current', 'now', 'today'],
-    educationDescriptors: [
-      'education',
-      'academic background',
-      'educational qualifications',
-      'scholastic achievements',
-      'educational history',
-      'formal education',
-      'degrees earned',
-      'qualifications',
-      'certifications',
-      'training',
-      'diplomas and degrees',
-      'educational attainment',
-      'academic record',
-      'coursework',
-      'graduation information',
-      'study programs',
-      'institutional background',
-      'scholarships and awards',
-      'gpa (grade point average)',
-      'honors and distinctions',
-    ],
-    experienceKeywords: [
-      'experience',
-      'work experience',
-      'employment history',
-      'professional experience',
-      'work history',
-      'career highlights',
-      'job history',
-      'work background',
-      'previous positions',
-      'professional background',
-      'work record',
-      'job experience',
-      'career history',
-      'job positions',
-      'job details',
-      'professional work',
-      'job summary',
-      'employment record',
-      'professional history',
-    ],
   },
   dateRangeRegex:
     /(\w+\s\d{4}\s*-\s*(?:\w+\s\d{4}|present))|(\w+\s\d{4})\s(?:to|[-–]\s*)\s*(\w+\s\d{4}|present)/gi,
@@ -67,7 +25,7 @@ async function parseResume() {
       },
       experience,
     };
-    // console.log(resumeText);
+
     console.log(JSON.stringify(resumeData, null, 2));
   } catch (error) {
     console.error('Error parsing the resume:', error);

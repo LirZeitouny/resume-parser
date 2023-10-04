@@ -1,0 +1,137 @@
+{
+    "sections": {
+        "education": [
+            "academic background",
+            "internships",
+            "projects",
+            "skills",
+            "courses",
+            "academic achievements",
+            "qualifications",
+            "academic history",
+            "studies",
+            "degrees"
+        ],
+        "experience": [
+            "experience",
+            "work experience",
+            "employment history",
+            "professional experience",
+            "work history",
+            "career highlights",
+            "job history",
+            "work background",
+            "previous positions",
+            "professional background",
+            "work record"
+        ],
+        "personal_info": [
+            "contact information",
+            "personal details",
+            "profile",
+            "about me",
+            "contact info",
+            "personal summary",
+            "contact details",
+            "personal information",
+            "bio",
+            "profile summary"
+        ],
+        "tech_skills": [
+            "technical skills",
+            "technical expertise",
+            "software skills",
+            "programming languages",
+            "tools",
+            "technologies",
+            "technical proficiencies",
+            "computer skills",
+            "technology skills",
+            "IT skills"
+        ],
+        "soft_skills": [
+            "soft skills",
+            "communication",
+            "teamwork",
+            "problem-solving",
+            "leadership",
+            "adaptability",
+            "time management",
+            "creativity",
+            "interpersonal skills",
+            "emotional intelligence"
+        ],
+        "volunteering": [
+            "volunteer work",
+            "community service",
+            "volunteer experience",
+            "social contributions",
+            "charitable activities",
+            "volunteer history",
+            "non-profit work",
+            "philanthropy",
+            "volunteer efforts",
+            "community involvement"
+        ],
+        "certifications": [
+            "certifications",
+            "certificates",
+            "certified",
+            "professional licenses",
+            "qualifications",
+            "credentials",
+            "certification programs",
+            "licensed",
+            "certified courses",
+            "certification achievements"
+        ],
+        "publications": [
+            "publications",
+            "published work",
+            "written articles",
+            "research publications",
+            "published papers",
+            "academic publications",
+            "published content",
+            "written works",
+            "published research",
+            "contributions to publications"
+        ],
+        "languages": [
+            "languages",
+            "language proficiency",
+            "linguistic skills",
+            "spoken languages",
+            "multilingual",
+            "language abilities",
+            "language fluency",
+            "foreign languages",
+            "language skills",
+            "language competencies"
+        ],
+        "hobbies_or_interests": [
+            "hobbies or interests",
+            "personal interests",
+            "extracurricular activities",
+            "interests and hobbies",
+            "passions",
+            "hobbies list",
+            "personal hobbies",
+            "interests and pursuits",
+            "leisure activities",
+            "activities outside of work"
+        ],
+        "references": [
+            "references",
+            "recommendations",
+            "referrals",
+            "professional references",
+            "personal references",
+            "references available upon request",
+            "character references",
+            "employment references",
+            "academic references",
+            "positive feedback"
+        ]
+    }
+}
