@@ -46,6 +46,7 @@ class ExperienceSectionParser extends SectionParser {
       } else currentJob.description += `${line}`;
     }
 
+    experience.pop();
     return { experience };
   }
 
